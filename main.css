@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.init{
+    background: #1b6cb8;
+}
+.none{
+    display: none;
+}
+/* .false{
+    background: #f43b5d;    
+} */
+.correct{
+    background: #3bf4ad;
+}
+.container{
+    text-align: center;
+}
+/* title styles area */
+.title{
+    text-transform: capitalize;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 60px;
+    color: white;
+    margin-bottom: 30px;
+    text-shadow: 0px 5px 25px #000000a4;
+}
+/* input styles area */
+.input{
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    padding-left: 13px;
+    font-weight: 700;
+    color: #0b3f6f;
+    border-radius: 10px;
+    border: none;
+    /* box-shadow: 0px 10px 15px #00000029; */
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.input:hover{
+    cursor: pointer;
+}
+/* status section styles area */
+.status-container{
+    padding-top: 20px;
+}
+.status{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(47, 47, 47);
+    font-size: 19px;
+    margin-bottom: 30px;
+}
+/* guess button styles area */
+.guess-button{
+    border: none;
+    padding: 10px 35px;
+    border-radius: 20px;
+    font-size: 18px;
+    /* box-shadow: 0px 5px 10px #00000028; */
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.guess-button:hover{
+    background: #1afba5;
+    cursor: pointer;
+}
+/* again button styles area */
+.again{
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    padding: 14px 40px;
+    border: none;
+    border-radius: 15px;
+    text-transform: capitalize;
+    font-weight: bold;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.again:hover{
+    cursor: pointer;
+    background: #c337ff;
+    color: white;
+}

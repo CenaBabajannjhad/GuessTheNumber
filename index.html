@@ -1,39 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        h1{
-            text-align: center;
-        }
-        div{
-            text-align: center;
-        }
-        main{
-            text-align: center;
-        }
-    </style>
+    <link rel="stylesheet" href="main.css">
 </head>
-<body>
-    <h1>guess the number</h1>
 
-    <div>
-        <input id="input" type="number" max="20">
+<body id="body" class="init">
+    <button id="again" class="again none">again ?</button>
+    <div class="container">
+
+        <h1 class="title">guess the number</h1>
+
+        <div>
+            <input class="input" id="input" type="number" max="20">
+        </div>
+        <main>
+            <section class="status-container">
+                <p class="status" id="status">status of your guess...</p>
+            </section>
+            <section>
+                <button class="guess-button" id="start">start</button>
+            </section>
+        </main>
     </div>
-
-    <main>
-        <section>
-            <p id="status">
-                
-            </p>
-        </section>
-        <section>
-            <button id="guess">guess?</button>
-        </section>
-    </main>
-
     <script src="main.js"></script>
 </body>
+
 </html>
