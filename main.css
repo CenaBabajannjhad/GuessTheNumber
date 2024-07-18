@@ -58,7 +58,7 @@ body{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: rgb(47, 47, 47);
     font-size: 19px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 /* guess button styles area */
 .guess-button{
