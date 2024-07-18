@@ -8,11 +8,11 @@ let againButton = document.getElementById('again');
 
 
 // arrow function => get user input value
-let userInputValue = () => Number(input.value);
+const userInputValue = () => Number(input.value);
 // arrow function => reset input
-let resetInputValue = () => input.value = '';
+const resetInputValue = () => input.value = '';
 // arrow function => generate new random number
-let randomNumberGenerator = () => Math.floor(Math.random()*21);
+const randomNumberGenerator = () => Math.floor(Math.random()*21);
 let randomNumber = randomNumberGenerator();
 
 
